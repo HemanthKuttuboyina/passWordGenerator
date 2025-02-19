@@ -1,0 +1,31 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 40vh;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    /* border:2px solid black; */
+
+}
+
+.txt-box{
+  min-width: 25vw;
+  min-height: 4vh;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.cpy{
+  position: relative;
+  right: 29px;
+  cursor:pointer;
+  border-radius: 9px;
+  padding: 7px;
+  min-width: 5vw;
+  min-height: 6.5vh;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+
+}
